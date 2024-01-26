@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             background-image: url('https://github.com/CyberYuno/CyberYuno.github.io/blob/main/wallhaven-jxrrmp_1920x1080.png?raw=true');
-            background-size: 1920px 1080px;
+            background-size: cover;
             background-position: center;
             background-attachment: fixed;
             font-family: "PingFang SC", Arial, sans-serif;
@@ -17,9 +17,10 @@
             color: white;
         }
         header {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            padding: 20px;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             font-weight: 600;
             font-size: 36px;
         }
@@ -31,6 +32,14 @@
             font-family: "仿宋", Arial, sans-serif;
         }
         .button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            border: none;
             padding: 20px 40px;
             font-size: 24px;
             font-weight: bold;
@@ -38,10 +47,6 @@
             color: rgba(255, 255, 255, 0.7);
             cursor: pointer;
             transition: background-color 0.3s;
-            border: none;
-            border-radius: 50px; /* 圆角胶囊形 */
-            background-color: rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(10px);
         }
         .button:hover {
             background-color: rgba(255, 255, 255, 0.8);
@@ -51,9 +56,10 @@
 </head>
 <body>
     <header>氧芴的小站</header>
-    <footer>Pixiv id: 12303544</footer>
+    <footer>Power by cyberyuno.github.io Copyright © 2023-2025 氧芴 All Rights Reserved Sitemap</footer>
     <a href="https://space.bilibili.com/24047551?spm_id_from=333.1007.0.0" class="button">START</a>
 </body>
 </html>
+
 
 
